@@ -1,0 +1,364 @@
+input {
+  outline: none;
+  border: none; }
+
+header {
+  padding: 20px 100px;
+  background: #462846;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .logo {
+    display: flex;
+    justify-content: left; }
+    header .logo a {
+      color: white;
+      margin-right: 10px;
+      font-size: 18px;
+      transition: all 0.5s; }
+      header .logo a:hover {
+        color: orangered; }
+  header .navbar {
+    margin-left: 30px; }
+    header .navbar ul {
+      display: flex;
+      justify-content: space-between;
+      margin-left: -30px; }
+      header .navbar ul li a {
+        color: #a7a5a5;
+        margin-right: 20px;
+        font-size: 14px;
+        transition: all 0.5s; }
+        header .navbar ul li a:hover {
+          color: #ff3300; }
+  header .in {
+    margin-left: 0px; }
+    header .in input {
+      border-left: 1px solid white;
+      background: #462846;
+      padding-left: 20px; }
+      header .in input::placeholder {
+        color: #999797;
+        font-style: italic; }
+    header .in a i {
+      color: white;
+      background: #462846;
+      border: none; }
+  header .earth {
+    display: flex;
+    justify-content: space-between;
+    padding-left: -50px; }
+    header .earth a i {
+      color: white;
+      margin-right: 10px; }
+    header .earth .en {
+      display: flex;
+      justify-content: space-between; }
+      header .earth .en h3 {
+        color: #9e9c9c;
+        font-size: 14px;
+        margin-right: 10px; }
+      header .earth .en h4 {
+        border: 1px solid white;
+        background: white;
+        color: gray;
+        padding: 2px; }
+
+.arrow {
+  background: #4f2858;
+  display: inline-block;
+  padding: 18px 18px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+
+.pic {
+  background: #f1f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px; }
+  .pic img {
+    width: 380px;
+    height: 150px; }
+
+.new {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 80px;
+  align-items: center; }
+  .new .mark a {
+    font-size: 30px;
+    font-weight: bold; }
+  .new .fas {
+    margin-left: 0px;
+    padding-top: 10px; }
+    .new .fas ul {
+      display: flex;
+      justify-content: space-between; }
+      .new .fas ul li {
+        font-size: 18px;
+        margin-right: 30px; }
+  .new .super {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-top: 20px; }
+    .new .super a {
+      color: gray;
+      font-size: 12px; }
+    .new .super .fasfa a i {
+      color: green;
+      margin-left: 10px;
+      padding-top: -10px;
+      margin-top: -30px;
+      font-size: 18px; }
+  .new a i {
+    font-size: 16px;
+    color: orangered;
+    margin-top: 8px; }
+
+.news {
+  background: #f1f0f0;
+  padding: 20px 80px; }
+  .news .divide {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    border: 1px solix white;
+    background: white; }
+    .news .divide h2 {
+      color: green;
+      font-size: 22px;
+      margin-left: 0px; }
+    .news .divide p {
+      color: #242222;
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: -50px;
+      margin-top: 5px; }
+    .news .divide i {
+      color: green;
+      font-size: 20px;
+      margin-top: 5px; }
+    .news .divide input {
+      margin-top: -10px;
+      margin-left: -50px; }
+      .news .divide input::placeholder {
+        color: #f1f0f0;
+        font-style: italic;
+        font-size: 14px; }
+    .news .divide a {
+      margin-top: 0px;
+      color: white;
+      background: green;
+      padding: 10px 18px;
+      border: 1px solix green;
+      border-radius: 5px; }
+      .news .divide a:hover {
+        background: #532653; }
+
+.line {
+  padding: 30px 80px;
+  background: #f1f0f0;
+  display: flex;
+  justify-content: center; }
+  .line .line1-left h2 {
+    border-top: 1px solid white;
+    width: 500px;
+    margin-top: 15px; }
+  .line .newline {
+    color: #553155; }
+  .line .line2-right h2 {
+    border-top: 1px solid white;
+    width: 500px;
+    margin-top: 15px; }
+
+.man {
+  display: flex;
+  justify-content: space-between;
+  background: #ad310c;
+  padding: 40px 120px; }
+  .man .onepic {
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin-left: 0px; }
+    .man .onepic .about1-pic {
+      position: relative; }
+      .man .onepic .about1-pic button {
+        border: 1px;
+        border-radius: 30px;
+        padding: 7px 17px;
+        font-size: 16px;
+        background: purple;
+        color: white;
+        transition: all 0.5s;
+        position: absolute;
+        left: 37%;
+        top: 10%; }
+        .man .onepic .about1-pic button:hover {
+          background: green; }
+      .man .onepic .about1-pic label {
+        color: red;
+        font-size: 23px;
+        position: absolute;
+        left: 5%;
+        top: 60%;
+        font-weight: bold; }
+      .man .onepic .about1-pic p {
+        color: black;
+        font-size: 20px;
+        margin-top: 210px;
+        margin-left: 10px; }
+  .man .twopic {
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 580px;
+    height: 300px;
+    padding: 30px; }
+    .man .twopic img {
+      width: 200px;
+      height: 300px;
+      margin-top: -30px;
+      margin-left: -30px;
+      margin-right: 0px; }
+    .man .twopic .about {
+      position: relative; }
+      .man .twopic .about button {
+        margin-top: -20px;
+        border: 1px;
+        border-radius: 30px;
+        padding: 7px 17px;
+        font-size: 16px;
+        background: purple;
+        color: white;
+        transition: all 0.5s;
+        position: absolute;
+        left: 0%;
+        top: 10%; }
+        .man .twopic .about button:hover {
+          background: green; }
+      .man .twopic .about label {
+        color: red;
+        font-size: 23px;
+        position: absolute;
+        left: -60%;
+        top: 60%;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-left: 0px; }
+      .man .twopic .about p {
+        color: black;
+        font-size: 20px;
+        margin-top: 180px;
+        margin-left: -100px;
+        width: 280px; }
+  .man .threepoint {
+    background: white;
+    padding: 120px 40px 80px; }
+    .man .threepoint ul li h2 {
+      width: 7px;
+      height: 7px;
+      border: 1px solid orangered;
+      border-radius: 50%;
+      background: orangered;
+      margin-bottom: 20px; }
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f0f0;
+  padding: 40px 80px; }
+  .third .onedivide {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 40px;
+    background: white;
+    margin-right: 15px;
+    margin-left: 15px; }
+    .third .onedivide .fuel {
+      margin-left: 20px; }
+      .third .onedivide .fuel h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: bold; }
+      .third .onedivide .fuel h4 {
+        margin-bottom: 20px; }
+        .third .onedivide .fuel h4 a i {
+          font-size: 14px;
+          color: orangered;
+          margin-right: 10px; }
+      .third .onedivide .fuel button {
+        border: 1px;
+        border-radius: 5px;
+        padding: 7px 17px;
+        font-size: 16px;
+        background: purple;
+        color: white;
+        transition: all 0.5s; }
+        .third .onedivide .fuel button:hover {
+          background: green; }
+
+.flashsale {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  background: #f1f0f0; }
+  .flashsale .sale1-flash img {
+    width: 280px;
+    height: 300px; }
+  .flashsale .sale1-flash .but {
+    margin-top: -5px; }
+    .flashsale .sale1-flash .but button {
+      border: 1px;
+      padding: 7px 112px;
+      font-size: 16px;
+      background: purple;
+      color: white;
+      transition: all 0.5s; }
+      .flashsale .sale1-flash .but button:hover {
+        background: green; }
+
+.finalpage {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 200px 45px 80px; }
+  .finalpage .ma .mark {
+    margin-bottom: 10px; }
+    .finalpage .ma .mark a {
+      font-size: 28px; }
+  .finalpage .ma h4 {
+    font-size: 14px;
+    color: black;
+    width: 280px; }
+    .finalpage .ma h4 a {
+      font-size: 14px;
+      color: green; }
+      .finalpage .ma h4 a:hover {
+        border-bottom: 1px solid green; }
+  .finalpage .column1-page ul {
+    list-style-type: disc;
+    margin-left: -30px; }
+    .finalpage .column1-page ul li a {
+      font-size: 14px;
+      margin-bottom: 15px;
+      transition: all 0.5s; }
+      .finalpage .column1-page ul li a:hover {
+        color: green; }
+  .finalpage .column4-page h3 {
+    font-size: 15px;
+    color: #3f283f;
+    margin-bottom: 22px; }
